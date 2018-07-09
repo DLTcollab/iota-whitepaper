@@ -73,7 +73,7 @@ tangle 不僅成功的讓區塊鏈往前邁進一步，其特性更是符合 M2M
 這些驗證關係就通過有向的邊來表示，如圖~\ref{f_weights}\footnote{每張圖的時間軸皆為左至右}所示
 （在圖中，時間走向皆是從左到右）。
 如果從交易~$A$ 到交易~$B$ 之間沒有直接連接的有向邊，而有至少長度為 2 的有向邊路徑存在，我們就說交易~$A$ \emph{間接地驗證}了交易~$B$。
-另外，有一個「創世交易」 (genesis trasaction)，被所有交易直接或間接驗證，如圖~\ref{f_reverse_weights}。
+另外，有一個「創世交易」 (genesis transaction)，被所有交易直接或間接驗證，如圖~\ref{f_reverse_weights}。
 創世交易的描述如下:在最一開始有一個地址 (address) 擁有全部的 token，接著創世交易會把金錢轉給其他 ``founder'' 的地址。
 我們強調所有的 token 皆是創世交易所產生的(不會再產生新的 token)，而且不會再有「挖礦」就可以收到金錢獎勵的概念了。\leavevmode\\
 術語解釋: \emph{sites}為在 Tangle 圖上的交易;
